@@ -119,7 +119,7 @@
     width: 185px;
     height: 10px;
     left: 20px;
-    top: -20px;
+    top: -30px;
 
     font-family: 'Inter';
     font-style: italic;
@@ -137,7 +137,7 @@
     width: 519px;
     height: 5px;
     left: 15px;
-    top: 20px;
+    top: 10px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -148,9 +148,37 @@
     color: #000000;
 }
 
-#analises{
-    position: absolute;
-    top: 50px;
-    width: 100%;
-    height: 100%;
+.analises{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
 }
+
+.card{
+    background-color: #FFFBFB;
+    padding: 120px;
+    box-shadow: 4px 4px 4px #146d2056;
+}
+
+.card h2{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.card img{
+    width: 70px;
+    height: 100px;
+}
+
+
+
