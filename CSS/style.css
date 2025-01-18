@@ -113,6 +113,39 @@
     height: auto;
 }
 
+@media only screen and (max-width: 700px){
+    #menu{
+        height: 40px;
+    }
+    #menu img{
+        height: 40px;
+        width: auto;
+    }
+    #menu h1{
+        font-size: 20px;
+        top: 0;
+        left: 50px;
+    }
+    #capa{
+        top: 41px;
+        height: 200px;
+    }
+    #capa h1{
+        font-family: 'Arial';
+        font-size: 20px;
+        width: 100%;
+        margin-top: -60px;
+    }
+
+    #icones{
+        margin-top: 180px;
+    }
+
+    #icones img{
+        width: 20px;
+        height: auto;
+    }
+}
 /*-------------------Página das ANALISES------------------*/
 
 .texto{
@@ -125,12 +158,9 @@
 .texto h1{
     /* ANÁLISES */
 
-    position: absolute;
-    width: 185px;
-    height: 10px;
-    left: 20px;
-    top: -30px;
-
+    
+    margin-top: -30px;
+    margin-left: 10px;
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
@@ -141,12 +171,9 @@
 }
 
 .texto h3{
-    position: absolute;
-    width: 519px;
-    height: 5px;
-    left: 15px;
-    top: 10px;
-
+    
+    margin-top: 0;
+    margin-left: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -159,7 +186,7 @@
 .analises{
     display: flex;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 0;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -176,8 +203,8 @@
 }
 
 #card img {
-    width: 120px; 
-    height: 160px; 
+    width: 120px;
+    height: 180px; 
     margin-right: 5px; 
     float: left;
 }
@@ -229,6 +256,23 @@
     color: white;
 }
 
+@media only screen and (max-width: 600px){
+    .texto{
+        margin-top: -45px;
+    }
+    .texto h1{
+        font-size: 18px;
+    }
+    .texto h3{
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    .analises{
+        margin-top: -8px;
+    }
+}
+/*--------------RODAPÉ------------*/
+
 #rodape{
     background-color: #0e5a14;
     height: 100px;
@@ -267,6 +311,9 @@
     width: 50px;
     height: auto;
     cursor: pointer;
+}
 
+@media only screen and (max-width: 600px){
+    
 }
 
