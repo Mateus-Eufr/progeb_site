@@ -205,7 +205,7 @@
 #card img {
     width: 120px;
     height: 180px; 
-    margin-right: 5px; 
+    margin-right: 2px; 
     float: left;
 }
 
@@ -217,7 +217,7 @@
 
 #card p {
     font-family: 'Arial';
-    text-align: left;
+    text-align: start;
     font-size: 11px;
     margin: 5px 0;
     font-style: normal;
