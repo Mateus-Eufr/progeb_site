@@ -128,21 +128,21 @@
     }
     #capa{
         top: 41px;
-        height: 200px;
+        height: 180px;
     }
     #capa h1{
         font-family: 'Arial';
-        font-size: 20px;
+        font-size: 22px;
         width: 100%;
         margin-top: -60px;
     }
 
     #icones{
-        margin-top: 180px;
+        margin-top: 150px;
     }
 
     #icones img{
-        width: 20px;
+        width: 22px;
         height: auto;
     }
 }
@@ -243,8 +243,6 @@
     padding: 8px 5px;
     background-color: #ffffff;
     border-radius: 50px;
-    color: #0289e4;
-    font-family:"Arial" ;
     cursor: pointer;
     transition-duration: .9s;
 }
@@ -253,12 +251,20 @@
     border: solid 1px #ffffff;
     transition: 0.7s;
     background-color: #0e5a14;
-    color: white;
+}
+
+#card button a{
+    text-decoration: none;
+    color: #0289e4;
+}
+
+#card button a:hover{
+    color: #fffcfc;
 }
 
 @media only screen and (max-width: 600px){
     .texto{
-        margin-top: -45px;
+        margin-top: -65px;
     }
     .texto h1{
         font-size: 18px;
@@ -288,8 +294,9 @@
 }
 
 #rodape h2{
-    text-align: center;
-    margin-top: 25px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -300,7 +307,7 @@
  
 #icones_rodape{
     float: right;
-    margin-top: -30px;
+    margin-top: 20px;
     margin-right: 5%;
     display: flex;
     gap: 15px;
@@ -314,6 +321,22 @@
 }
 
 @media only screen and (max-width: 600px){
-    
+    #rodape{
+        height: 50px;
+    }
+    #rodape img{
+        height: 40px;
+        width: auto;
+    }
+    #rodape h2{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    #icones_rodape img{
+        width: 30px;
+        height: auto;
+        margin-top: 0px;
+    }
 }
 
