@@ -335,7 +335,7 @@
     #icones_rodape a img{
         width: 22px;
         height: auto;
-        margin-top: 0px;
+        margin-top: -20px;
     }
 }
 
