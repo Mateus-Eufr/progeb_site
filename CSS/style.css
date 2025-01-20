@@ -69,7 +69,12 @@
     transform: 0.5;
     color: #27aa30;
 }
-
+.menu-mobile-icon{
+    display: none;
+}
+.menu-mobile{
+    display: none;
+}
 /*CAPA*/
 #capa{
     position: absolute;
@@ -113,7 +118,7 @@
     height: auto;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     #menu{
         height: 40px;
     }
@@ -121,10 +126,20 @@
         height: 40px;
         width: auto;
     }
+    #menu ul{
+        display: none;
+    }
     #menu h1{
         font-size: 20px;
         top: 0;
         left: 50px;
+    }
+    .menu-mobile-icon{
+        position: absolute;
+        top: 0;
+        right: 5%;
+        display: block;
+        cursor: pointer;
     }
     #capa{
         top: 41px;
