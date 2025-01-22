@@ -26,8 +26,6 @@
 
 #menu h1{
     position: absolute;
-    width: 165px;
-    height: 48px;
     left: 75px;
     top: 6px;
 
@@ -121,17 +119,17 @@
         width: auto;
     }
     #menu h1{
-        font-size: 20px;
+        font-size: 18px;
         top: 0;
         left: 50px;
     }
     #menu ul{
         margin-top: 10px;
-        gap: 10px;
+        gap: 8px;
         margin-right: 2px;
     }
     #menu ul li{
-        font-size: 12px;
+        font-size: 10px;
     }
     #capa{
         top: 41px;
@@ -341,7 +339,8 @@
         font-size: 9px;
     }
     #icones_rodape a img{
-        width: 22px;
+        margin-right: 2px;
+        width: 20px;
         height: auto;
         margin-top: 0px;
     }
